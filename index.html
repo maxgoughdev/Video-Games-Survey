@@ -1,0 +1,90 @@
+<main>
+<header>
+  <h1 id="title">
+    Video Games - Survey
+  </h1>
+  <p id="description">Tell us what YOU love about gaming!
+  </p>
+ 
+</header>
+ <form id="survey-form" action="https://crossorigin.me/https://freecodecamp.com">
+  
+      <label for="name" id="name-label">* First & Last Name:
+      </label>
+    <input type="text" id="name" name="name" required placeholder="Enter Your Name">
+      </input>
+
+
+  <label for="email" id="email-label">* Email:</label>
+  <input type="email" id="email" name="email" required placeholder="Enter Email Address">
+  </input>
+
+  <label for="age" id="number-label">* Age:
+  </label>
+  <input type="number" id="number" name="age" required min="1" max="125" placeholder="Age" class="input-field">
+  </input>
+
+<div id="questions">
+  <!--Place Survey Questions Here! 
+-->  
+  <div id="favConsole">
+  <label id="dropdown">1. Favorite Game Console?
+    </label>
+  <select id="dropdown" name="favConsole" class="dropdown">
+    <option disabled value>--Select One</option>
+    <option value="64">Nintendo 64</option>
+    <option value="gamecube">GameCube</option>
+    <option value="wii">Nintendo Wii</option>
+    <option value="360">XBOX 360</option>
+    <option value=one>XBOX One</option>
+    <option value="ps2">PS2</option>
+    <option value="ps3">PS3</option>
+    <option value="ps4">PS4</option>
+    <option value="other">Other</option>
+  </select>
+  </div>
+  <div id="subforum">
+  <label id="genre" type="checkbox">2. Best Game Genre?<br>
+    </label>
+    <div id="checkboxes">
+    <input type="checkbox" value="adventure">Adventure</input><br>
+    <input type="checkbox" value="fps">FPS</input><br>
+    <input type="checkbox" value="rpg">RPG</input><br>
+    <input type="checkbox" value="sim">Simulation</input><br>
+    <input type="checkbox" value="sport">Sports</input><br>
+    <input type="checkbox" value="strat">Stategy</input><br>
+    <input type="checkbox" value="other">Other</input><br>
+</div>
+</div>
+<div class="subforum">
+  <label id="options">3. Choose your favorite game from the list below:
+  </label>
+  </div>
+  <div id="games">
+  <input type="radio" name="0" value="1"> Call of Duty</label><br>
+  <input type="radio" name="0" value="2"> Super Mario</label><br>
+  <input type="radio" name="0" value="3"> Smash Bros.</label><br>
+  <input type="radio" name="0" value="4"> Battlefield</label><br>
+  <input type="radio" name="0" value="5"> Minecraft</label><br>
+  <input type="radio" name="0" value="6"> Fortnite</label><br>
+  <input type="radio" name="0" value="7"> Pokemon</label><br>
+  <input type="radio" name="0" value="8"> Zelda</label><br>
+  <input type="radio" name="0" value="9"> Madden</label><br>
+  <input type="radio" name="0" value="10"> Fifa</label><br>
+  <input type="radio" name="0" value="11"> Other</label><br>
+</div>
+<div class"form-group">
+  <label for="textarea">5. Why do you enjoy being a gamer?
+  </label>
+</div>
+  <textarea rows=10 placeholder="Tell us your gaming experience." maxlength=1000 required></textarea>
+</div>
+</div>
+<button id="submit" type="submit">Submit
+</button>
+</form>
+
+<footer>Written and designed by Max Gough
+</footer>
+</main>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
