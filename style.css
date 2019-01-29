@@ -1,4 +1,4 @@
-main{
+body{
   background-image: url('https://backgroundcheckall.com/wp-content/uploads/2017/12/gaming-background-banner-8.jpg');
 }
 header {
@@ -48,6 +48,7 @@ padding-bottom: 20px;
   padding-bottom: 10px;
   margin-bottom: 50px;
   font-weight: bold;
+  font-size: 18px;
 }
 footer{
   display:flex;
@@ -103,4 +104,10 @@ textarea {
   width: 100%;
   margin-top: 20px;
 }
-
+footer {
+  background: gray;
+  height: 70px;
+  font-size: 22px;
+  width: 100%;
+  justify-content: center;
+}
